@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;   
+}
+
+root {
+    --cor1:var(--cor1);
+    --cor2:var(--cor1);
+    --cor3:var(--cor1);
+    --cor4:var(--cor1);
+    --cor5:var(--cor1);
+    --cor6:var(--cor1);
+    --cor7:var(--cor1);
+
+    --fonte-padrao:var(--cor1);
+    --fonte-de-titulo:var(--cor1);
+    --fonte-destaque:var(--cor1);
+}
+
+nav{
+
+    text-align: center;
+}
+
+header section {
+    padding-top: 50px;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.459);
+    text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.074);
+}
+
+header h1 {
+    font-size: 5em;
+}
+
+header h2 {
+    font-size: 3em;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../img/logo-paisagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
