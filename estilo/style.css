@@ -22,6 +22,20 @@ root {
 nav{
 
     text-align: center;
+    background-color: rgba(166, 214, 255, 0.127);
+    padding: 10px;
+}
+nav > a {
+    color: rgb(80, 203, 248);
+    padding: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3;
+}
+
+nav > a:hover {
+    background-color: rgba(0, 255, 255, 0.689);
+    color: black;
 }
 
 header section {
@@ -44,4 +58,18 @@ body {
     background-image: url(../img/logo-paisagem.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(38, 239, 239, 0.285)
+}
+
+main {
+    background-color: rgba(240, 255, 255, 0.345);
+    min-width: 300px;
+    max-width: 600px;
+    padding: 20px;
+    text-align: justify;    
+    margin: auto;
+    border-radius: 6px;
+
 }
