@@ -60,7 +60,11 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-color: rgba(38, 239, 239, 0.285)
+    background-color: rgba(38, 239, 239, 0.285);
+}
+
+section.secao1 {
+    background-color: white;
 }
 
 main {
@@ -71,5 +75,4 @@ main {
     text-align: justify;    
     margin: auto;
     border-radius: 6px;
-
 }
