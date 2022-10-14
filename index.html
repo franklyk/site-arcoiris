@@ -28,9 +28,13 @@
         <main>
             <article>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, quaerat sapiente. Non vel, id fuga nihil, odio, sint ducimus labore quis nisi natus repellendus dolorem molestias doloremque. Delectus, quos fugit.
-                    <picture>
-                        <source media="(min-width: 700px)" srcset="img/foto-(5).jpg"><img src="img/foto-(1).jpg" alt="foto da capa">
-                    </picture>
+                    <div class="foto">
+                        <picture>
+                            <source media="(max-width: 550px)" srcset="img/foto-(1)p.jpg" type="image/jpg"><source media="(max-width: 750px)" srcset="img/foto-(1)m.jpg" type="image/jpg">
+                            <source media="(max-width: 1000px)" srcset="img/foto-(1).jpg" type="image/jpg">
+                            <img src="img/foto-(1)ex.jpg" alt="foto da capa">
+                        </picture>
+                    </div>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta alias rem assumenda nesciunt cum sunt sapiente earum sequi praesentium? Qui, possimus officia fugit sunt neque dicta labore autem quasi?
                         Lorem i
