@@ -52,27 +52,33 @@ header h1 {
 header h2 {
     font-size: 3em;
 }
+header > section > p {
+    font-size: 1.3em;
+}
 
 body {
-    height: 100vh;
-    background-image: url(../img/logo-paisagem.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     background-color: rgba(38, 239, 239, 0.285);
 }
 
 section.secao1 {
+    background-image: url(../img/logo-paisagem.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+section.secao2 {
     background-color: white;
 }
 
 main {
-    background-color: rgba(240, 255, 255, 0.345);
+    background-color: rgba(138, 248, 248, 0.345);
     min-width: 300px;
-    max-width: 600px;
+    max-width: 1000px;
     padding: 20px;
     text-align: justify;    
     margin: auto;
     border-radius: 6px;
 }
+
