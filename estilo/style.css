@@ -47,22 +47,27 @@ header section {
     padding-top: 50px;
     text-align: center;
     color: hsla(0, 0%, 100%, 0.459);
-    text-shadow: 6px 6px 20px 5px rgba(0, 0, 0, 0.548);
 }
 
 header h1 {
     font-size: 5em;
+    text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
+
 }
 
 header h2 {
     font-size: 3em;
+    text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
+
 }
 header > section > p {
     font-size: 1.3em;
+    text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
+
 }
 
 body {
-    background-color: rgba(0, 140, 255, 0.408);
+    background-color: rgba(0, 140, 255, 0.211);
 }
 
 section.secao1 {
@@ -79,11 +84,16 @@ main {
     min-width: 400;
     max-width: 700px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 6px 6px 6px 6px;
 }
 main section {
     background-color: white;
 }
-main section.capa1 {    
+main section.capa1 {
+    
     background-image: url(../img/foto-1-ex.jpg);
     max-width: 700px;
     height: 70vh;
@@ -97,9 +107,8 @@ main section.capa1  > h2 {
     color: hsl(33, 100%, 50%);
     padding-top: 50px;
     padding-left: 30px;
-    padding-bottom: 70vh;
+    padding-bottom: 55vh;
     background-color: rgba(0, 0, 0, 0.609);
-    background-attachment: fixed;
 }
 
 main section.secao2 {
