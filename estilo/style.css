@@ -7,27 +7,26 @@
 
 
 @font-face {
-    font-family: 'idroid';
-    src: url('idroid.otf') format('opentype');
+    font-family: 'Cinzel';
+    src: url(../fonts/CinzelDecorative-Bold.otf)format('opentype');
     font-weight: bolder;
     font-style: normal;
 }
 
 
-root {
-    --cor1:var(#ff5956);
-    --cor2:var(#ffca3a);
-    --cor3:var(#8ac926);
-    --cor4:var(#1982c4);
-    --cor5:var(#6a4c93);
+:root {
+    --letras: #af0808a3;
+    --detalhes: #ff8c00;
+    --cor3: #8ac926;
+    --fundo: #1982c4;
+    --cor5: #6a4c93;
 
-    --padrao:var(Arial, Helvetica, sans-serif);
-    --titulo:var('idroid');
-    --destaque:var();
+    --destaque: 'Cinzel';
+    --padrao: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    font-family: var(--fonte-padrao);
+    font-family: var(--padrao);
     text-align: center;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple);
     padding: 10px;
@@ -58,18 +57,20 @@ header section {
 }
 
 header h1 {
-    font-family: var(--titulo);
+    font-family: var(--destaque);
     font-size: 5em;
     text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
 
 }
 
 header h2 {
-    font-size: 3em;
+    font-family: var(--padrao);
+    font-size: 2.5em;
     text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
 
 }
 header > section > p {
+    font-family: var(--padrao);
     font-size: 1.3em;
     text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
 
@@ -113,7 +114,7 @@ main section.capa1 {
 main section.capa1  > h2 {
     font-size: 2.5em;
     text-align: left;
-    color: hsl(33, 100%, 50%);
+    color: #ff8c00;
     padding-top: 50px;
     padding-left: 30px;
     padding-bottom: 55vh;
@@ -129,21 +130,21 @@ main section.secao2 > h2 {
     font-size: 3.8vw;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.23);
-    color: rgb(255, 0, 0);
+    color: var(--letras);
     background-color: rgba(0, 0, 0, 0.172);
 }
 main section.secao2 > p {
     font-size: 3.5vw;
     text-shadow: 0.5px 0.5px 0px black;
     padding-bottom: 1em;
-    color: hsla(0, 91%, 36%, 0.641);
+    color: #af0808a3;
     padding: 1em;
 
 }
 
 footer {
-    font-family: var(--fonte-padrao);
-    font-size: 3vw;
+    font-family: var(--padrao);
+    font-size: 1em;
     padding: 50px;
     color: white;
     background-color: black;
