@@ -4,6 +4,10 @@
     padding: 0px;
     margin: 0px;   
 }
+@font-face {
+    font-family: ;
+    src: url(../font/sunday_best/);
+}
 
 root {
     --cor1:var(--cor1);
