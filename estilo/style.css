@@ -4,26 +4,30 @@
     padding: 0px;
     margin: 0px;   
 }
+
+
 @font-face {
-    font-family: ;
-    src: url(../font/sunday_best/);
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: bolder;
+    font-style: normal;
 }
 
-root {
-    --cor1:var(--cor1);
-    --cor2:var(--cor1);
-    --cor3:var(--cor1);
-    --cor4:var(--cor1);
-    --cor5:var(--cor1);
-    --cor6:var(--cor1);
-    --cor7:var(--cor1);
 
-    --fonte-padrao:var(--cor1);
-    --fonte-de-titulo:var(--cor1);
-    --fonte-destaque:var(--cor1);
+root {
+    --cor1:var(#ff5956);
+    --cor2:var(#ffca3a);
+    --cor3:var(#8ac926);
+    --cor4:var(#1982c4);
+    --cor5:var(#6a4c93);
+
+    --padrao:var(Arial, Helvetica, sans-serif);
+    --titulo:var('idroid');
+    --destaque:var();
 }
 
 nav {
+    font-family: var(--fonte-padrao);
     text-align: center;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple);
     padding: 10px;
@@ -54,6 +58,7 @@ header section {
 }
 
 header h1 {
+    font-family: var(--titulo);
     font-size: 5em;
     text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
 
@@ -134,4 +139,13 @@ main section.secao2 > p {
     color: hsla(0, 91%, 36%, 0.641);
     padding: 1em;
 
+}
+
+footer {
+    font-family: var(--fonte-padrao);
+    font-size: 3vw;
+    padding: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
 }
