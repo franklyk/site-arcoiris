@@ -18,18 +18,17 @@
 
 :root {
     --letras: #af0808a3;
-    --detalhes: #ff8c00;
+    --detalhes: #593100;
     --cor3: #8ac926;
-    --fundo: #1982c4;
-    --cor5: #6a4c93;
+    --fundo: #0107fa;
+    --cor5: #ed84d6;
 
     --destaque: 'Cinzel';
     --padrao: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: rgba(0, 140, 255, 0.211);
-    background-image: url(../img/lollipop-gf75f29ccb_640.jpg);
+    background-color: var(--fundo);
 }
 
 nav {
@@ -122,7 +121,7 @@ main section.capa1  > h2 {
 }
 
 main section.secao2 {
-    background-color: #b7860b;
+    background-color: var(--cor5);
 }
 
 main section.secao2 > h2 {
@@ -142,6 +141,14 @@ main section.secao2 > p {
 
 }
 
+main section.secao3 {
+    font-size: 3.5vw;
+    text-align: center;
+    color: var(--letras);
+    padding: 50px;
+
+}
+
 footer {
     font-family: var(--padrao);
     font-size: 1em;
@@ -149,4 +156,7 @@ footer {
     color: white;
     background-color: black;
     text-align: center;
+}
+footer > img {
+    width: 80vw;
 }
