@@ -27,6 +27,11 @@
     --padrao: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: rgba(0, 140, 255, 0.211);
+    background-image: url(../img/lollipop-gf75f29ccb_640.jpg);
+}
+
 nav {
     font-family: var(--padrao);
     text-align: center;
@@ -59,7 +64,6 @@ header section {
 }
 
 header h1 {
-    font-family: var(--destaque);
     font-size: 15vw;
     text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
 
@@ -76,10 +80,6 @@ header > section > p {
     font-size: 1.3em;
     text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
 
-}
-
-body {
-    background-color: rgba(0, 140, 255, 0.211);
 }
 
 section.secao1 {
@@ -106,7 +106,7 @@ main section {
 }
 main section.capa1 {
     
-    background-image: url(../img/foto-1-ex.jpg);
+    background-image: url(../img/galerinha.jpg);
     max-width: 700px;
     height: 70vh;
     background-repeat: no-repeat;
