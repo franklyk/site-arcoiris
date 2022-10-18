@@ -33,6 +33,7 @@ body {
 
 nav {
     font-family: var(--padrao);
+    font-size: 2vmax; 
     text-align: center;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple);
     padding: 10px;
@@ -47,6 +48,7 @@ nav > a {
     font-weight: bolder;
     transition-duration: 0.5s;
     border-radius: 3px;
+
 
 }
 
