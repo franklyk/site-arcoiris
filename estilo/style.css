@@ -6,6 +6,8 @@
 }
 
 
+
+
 @font-face {
     font-family: 'Cinzel';
     src: url(../fonts/CinzelDecorative-Bold.otf)format('opentype');
@@ -38,7 +40,7 @@ nav > a {
     background-color: rgba(0, 255, 225, 0.181);
     padding: 0.5px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     transition-duration: 0.5s;
     border-radius: 3px;
 
@@ -58,7 +60,7 @@ header section {
 
 header h1 {
     font-family: var(--destaque);
-    font-size: 5em;
+    font-size: 15vw;
     text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
 
 }
