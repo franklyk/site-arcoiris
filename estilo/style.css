@@ -90,91 +90,14 @@ section.secao1 {
     height: 100vh;
     box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.608);
 }
-main {
-    background-color: var(--rsbb);
-    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.608);
-    min-width: 400;
-    max-width: 700px;
-    margin: auto;
-    margin-bottom: 20px;
-    border: 1px solid black;
-}
-main section {
-    background-color: white;
-}
-main section.capa1 {
-    
-    background-image: url(../img/galerinha.jpg);
-    width: 100%;
-    height: 70vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-main section.capa1  > h2 {
-    font-size: 2.5em;
-    text-align: left;
-    color: #ff5500;
-    padding-top: 40px;
-    padding-left: 25px;
-    padding-bottom: 55vh;
-}
-
-main section.secao2 {
-    background-color: var(--rsbb);
-}
-
-main section.secao2 > h2 {
-    padding: 30px;
-    font-size: 3.8vw;
-    text-align: center;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.23);
-    color: var(--letras);
-    background-color: rgba(0, 0, 0, 0.172);
-}
-main section.secao2 > p {
-    font-size: 3.5vw;
-    text-shadow: 0.5px 0.5px 0px black;
-    padding-bottom: 1em;
-    color: #af0808a3;
-    padding: 1em;
-
-}
-
-main section.secao3 {
-    text-align: center;
-    color: var(--letras);
-}
-
-main section.secao3 > div img {
-    width: 100%;
-    padding-bottom: 30px;
-
-}
-main section.secao3 > div h2 {
-    padding: 40px;
-    font-size: 5vw;
-    
-}
-main > img.maos1 {
-    width: 100%;
-    display: block;
-    margin: auto;
-
-}
-main section.secao4 > h2 {
-    text-align: center;
-    color: var(--letras);
-    padding: 40px;
-    background-color: var(--rsbb);
-}
 
 footer {
     font-family: var(--padrao);
     font-size: 1em;
     padding: 50px;
     color: white;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 footer > img {
