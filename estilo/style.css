@@ -20,15 +20,15 @@
     --letras: #af0808a3;
     --detalhes: #593100;
     --cor3: #8ac926;
-    --fundo: #0107fa;
-    --cor5: #ed84d6;
+    --azbb: #0c10ff89;
+    --rsbb: #ed84d6;
 
     --destaque: 'Cinzel';
     --padrao: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: var(--fundo);
+    background-color: var(--azbb);
 }
 
 nav {
@@ -91,14 +91,13 @@ section.secao1 {
     box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.608);
 }
 main {
+    background-color: var(--rsbb);
     box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.608);
     min-width: 400;
     max-width: 700px;
     margin: auto;
-    margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid black;
-    border-radius: 6px 6px 6px 6px;
 }
 main section {
     background-color: white;
@@ -106,7 +105,7 @@ main section {
 main section.capa1 {
     
     background-image: url(../img/galerinha.jpg);
-    max-width: 700px;
+    width: 100%;
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,15 +114,14 @@ main section.capa1 {
 main section.capa1  > h2 {
     font-size: 2.5em;
     text-align: left;
-    color: #ff8c00;
-    padding-top: 50px;
-    padding-left: 30px;
+    color: #ff5500;
+    padding-top: 40px;
+    padding-left: 25px;
     padding-bottom: 55vh;
-    background-color: rgba(0, 0, 0, 0.609);
 }
 
 main section.secao2 {
-    background-color: var(--cor5);
+    background-color: var(--rsbb);
 }
 
 main section.secao2 > h2 {
@@ -144,11 +142,31 @@ main section.secao2 > p {
 }
 
 main section.secao3 {
-    font-size: 3.5vw;
     text-align: center;
     color: var(--letras);
-    padding: 50px;
+}
 
+main section.secao3 > div img {
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+main section.secao3 > div h2 {
+    padding: 40px;
+    font-size: 5vw;
+    
+}
+main > img.maos1 {
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+main section.secao4 > h2 {
+    text-align: center;
+    color: var(--letras);
+    padding: 40px;
+    background-color: var(--rsbb);
 }
 
 footer {
