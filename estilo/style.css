@@ -17,89 +17,74 @@
 }
 
 body {
-    background-color: var(--azbb);
+    background-color: white
 }
 
-nav {
-    font-family: var(--padrao);
-    font-size: 2vmax; 
-    text-align: center;
-    background-image: linear-gradient(to right, red, rgb(255, 94, 0), yellow, green, blue, purple);
-    padding: 10px;
-}
-
-nav > a {
-    margin-left: 5px;
-    margin-right: 5px;
-    color: rgba(255, 0, 208, 0.744);
-    background-color: rgba(0, 255, 225, 0.181);
-    padding: 0.5px;
-    text-decoration: none;
-    font-weight: bolder;
-    transition-duration: 0.5s;
-    border-radius: 3px;
-
-
-}
-
-nav > a:hover {
-    background-color: white;
-    text-decoration: underline;
-    color: rgba(248, 0, 0, 0.52);
-}
-
-header section {
-    padding-top: 50px;
-    text-align: center;
-    color: hsla(0, 0%, 100%, 0.459);
-}
-
-header h1 {
-    font-size: 15vw;
-    text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
-
-}
-
-header h2 {
-    font-size: 2.5em;
-    text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
-
-}
-header > section > p {
-    font-size: 1.3em;
-    text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
-
-}
-
-section.secao1 {
+div#capa {
     background-image: url(../img/logo-paisagem.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
-    box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.608);
+    text-align: center;
 }
 
+nav {
+    padding-top: 30px;
+    font-family: var(--padrao);
+    font-size:small; 
+    text-align: center;
+}
+
+nav > a {
+    margin-left: 0.1px;
+    margin-right: 0.1px;
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    border-radius: 3px;
+
+}
+
+nav > a:hover {
+    background-color: rgba(0, 0, 0, 0.464);
+    text-decoration: underline;
+    color: white;
+    padding: 5px;
+    
+}
+
+header section.capa {
+    color: hsla(0, 0%, 100%, 0.459);
+    text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
+}
+
+header h1 {
+    font-size: 15vw;
+    padding-top: 50px;
+}
+
+header h2 {
+    font-size: 2.5em;
+}
+
+header > section > p {
+    font-size: 1.3em;
+}
 
 footer {
     font-family: var(--padrao);
     font-size: 1em;
-    padding: 50px;
-    color: white;
-    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: black;
+    background-color: white;
     text-align: center;
 }
 
-footer div.grid-container {
-    margin: auto;
-    display: grid;
-    align-content: center;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 10px;
-    padding: 10px;
-}
-
-footer div.grid-container > img {
-    width: 60px;
+footer img {
+    max-width: 80%;
+    max-height: 62px;
 }
