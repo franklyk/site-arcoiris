@@ -31,6 +31,7 @@ div#capa {
 }
 
 nav {
+    overflow: hidden;
     padding-top: 30px;
     font-family: var(--padrao);
     font-size:small; 
