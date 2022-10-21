@@ -31,18 +31,24 @@ div#capa {
 }
 
 nav {
+    width: 100%;
+    height: 30px;
+    background-color: blue;
     overflow: hidden;
+    position: fixed;
     padding-top: 30px;
     font-family: var(--padrao);
-    font-size:small; 
+    font-size: small; 
     text-align: center;
 }
 
 nav > a {
+    float: right;
+    display: block;
     margin-left: 0.1px;
     margin-right: 0.1px;
-    color: black;
-    padding: 0px;
+    color: white;
+    padding: 14px;
     text-decoration: none;
     font-weight: bolder;
     transition-duration: 0.5s;
@@ -78,8 +84,8 @@ header > section > p {
 main {
     font-size: 1.5em;
     max-width: 700px;
-    max-height: max-content;
     margin: auto;
+    margin-bottom: 80px;
     box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.07);
     background-color: var(--rsbb);
     color: var(--letras);
@@ -104,15 +110,20 @@ main img {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
     border-top: 0.1px solid rgba(0, 0, 0, 0.055);
+    box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.07);
     font-family: var(--padrao);
-    font-size: 1.5em;
-    color: black;
-    background-color: white;
+    font-size: 0.7em;
+    color: white;
+    background-color: rgb(51, 0, 255);
     text-align: center;
 }
 
 footer img {
     max-width: 80%;
-    max-height: 62px;
+    max-height: 30px;
 }
