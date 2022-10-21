@@ -11,7 +11,7 @@
     --detalhes: #593100;
     --cor3: #8ac926;
     --azbb: #0c10ff89;
-    --rsbb: #ed84d6;
+    --rsbb: #ffffff31;
 
     --padrao: Arial, Helvetica, sans-serif;
 }
@@ -74,11 +74,38 @@ header h2 {
 header > section > p {
     font-size: 1.3em;
 }
+main {
+    font-size: 1.5em;
+    max-width: 700px;
+    max-height: max-content;
+    margin: auto;
+    box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.07);
+    background-color: var(--rsbb);
+    color: var(--letras);
+    padding-bottom: 20px;
+}
+main h2 {
+    text-align: center;
+}
+
+main p {
+    margin: 5px 5px 0px 20px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.23);
+    text-indent: 30px;
+    width: 40%;
+    padding: 5px;
+    text-align: justify;
+    background-color: white;
+}
+main img {
+    width: 100%;
+    padding-top: 20px;
+}
 
 footer {
+    border-top: 0.1px solid rgba(0, 0, 0, 0.055);
     font-family: var(--padrao);
-    font-size: 1em;
-    padding: 20px;
+    font-size: 1.5em;
     color: black;
     background-color: white;
     text-align: center;
