@@ -1,10 +1,17 @@
 @charset "utf-8";
 
 * {
-    padding: 0px;
-    margin: 0px;   
+    margin: 0px;
+    box-sizing: border-box;   
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 :root {
     --letras: #af0808a3;
@@ -20,76 +27,20 @@ body {
     background-color: white
 }
 
-div#capa {
-    background-image: url(../img/logo-paisagem.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    text-align: center;
-}
-
 nav {
-    width: 100%;
-    height: 60px;
-    background-color: blue;
-    overflow: hidden;
-    position: fixed;
-    font-family: var(--padrao);
+    width: 350px;
+    height: 100vh;
+    background-color: rgba(32, 19, 19, 0.552);
 
-    font-size: 0.7em; 
-    text-align: center;
+
 }
-nav div.logo  {
-    float: left;
+
+nav a {
+    background-color: red;
     display: block;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 10px;
+    padding: 20px 5px;
 }
 
-nav div.menu  {
-    float: right;
-    display: block;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 25px;
-    margin-left: 0.1px;
-    margin-right: 0.1px;
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-    transition-duration: 0.5s;
-    border-radius: 3px;
-
-}
-
-nav div.menu > a:hover {
-    background-color: rgba(0, 0, 0, 0.464);
-    text-decoration: underline;
-    color: white;
-    padding: 5px;
-    
-}
-
-header section.capa {
-    color: hsla(0, 0%, 100%, 0.459);
-    text-shadow: 6px 6px 20px rgba(0, 0, 0, 0.748);
-}
-
-header h1 {
-    font-size: 15vw;
-    padding-top: 50px;
-}
-
-header h2 {
-    font-size: 2.5em;
-}
-
-header > section > p {
-    font-size: 1.3em;
-}
 main {
     font-size: 1.5em;
     max-width: 700px;
