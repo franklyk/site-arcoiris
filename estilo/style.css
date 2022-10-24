@@ -5,14 +5,6 @@
     box-sizing: border-box;   
 }
 
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 :root {
     --letras: #af0808a3;
     --detalhes: #593100;
@@ -23,25 +15,125 @@ a {
     --padrao: Arial, Helvetica, sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.482);
+    border: 1 solid black;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(150, 149, 149);
+    border: 1 solid rgb(150, 149, 149);
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
-    background-color: white
+    background-color: white;
+}
+
+header {
+    background-color: blue;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    margin-bottom: 0px;
+    z-index: 2;
+}
+
+a img {
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+
+
+label {
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.menulogo {
+    margin-top: 0px;
+}
+
+label img {
+    width: 30px;
+    margin: 15px;
+    position: fixed;
+    overflow: hidden;
+
+}
+
+input[type="checkbox"]{
+    display: none;
 }
 
 nav {
-    width: 350px;
-    height: 100vh;
-    background-color: rgba(32, 19, 19, 0.552);
-
-
+    background-color: rgb(16,16,16,.5);
+    top: 50px;
+    width: 250px;
+    height: 100%;
+    left: -250px;
+    position: fixed;
+    transition: all 0.5s;
 }
 
-nav a {
-    background-color: red;
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(250px);
+}
+
+nav ul {
+    position: absolute;
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul a {
     display: block;
     padding: 20px 5px;
+    color: red;
+}
+
+nav ul a:hover {
+    background-color: rgb(176, 224, 230);
+    color: black;
+}
+
+.capa {
+    height: 100vh;
+    text-align: center;
+    background-image: url(../img/logo-paisagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.capa h1{
+    padding-top: 50px;
+    font-size: 15vw;
+    color: rgba(255, 255, 255, 0.353);
+}
+.capa h2 {
+    font-size: 5vw;
+    color: rgba(255, 255, 255, 0.353);
+}
+.capa p {
+    font-size: 3vw;
+    color: rgba(255, 255, 255, 0.353);
 }
 
 main {
+    position: relative;
+    z-index: -2;
     font-size: 1.5em;
     max-width: 700px;
     margin: auto;
@@ -49,7 +141,6 @@ main {
     box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.07);
     background-color: var(--rsbb);
     color: var(--letras);
-    padding-bottom: 20px;
 }
 main h2 {
     text-align: center;
@@ -70,8 +161,6 @@ main img {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     margin-top: 20px;
     border-top: 0.1px solid rgba(0, 0, 0, 0.055);
