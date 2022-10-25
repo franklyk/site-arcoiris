@@ -36,7 +36,7 @@ a {
 }
 
 body {
-    background-color: white;
+    background-color: black;
 }
 
 header {
@@ -78,11 +78,12 @@ input[type="checkbox"]{
 }
 
 nav {
-    background-color: rgba(255, 0, 0, 0.473);
+    background-image: linear-gradient(to right, red, transparent);
+    border-radius: 20px;
     z-index: 5;
     top: 50px;
     width: 250px;
-    height: 50vh;
+    height: 45vh;
     left: -250px;
     position: fixed;
     transition: all 0.5s;
@@ -102,11 +103,12 @@ nav ul {
 nav ul a {
     display: block;
     padding: 20px 5px;
-    color: blue
+    color: rgb(229, 255, 0);
+    border-radius: 20px;
 }
 
 nav ul a:hover {
-    background-color: rgb(176, 224, 230);
+    background-image:linear-gradient(to right, rgb(176, 224, 230), transparent);
     color: black;
 }
 
@@ -114,7 +116,6 @@ nav ul a:hover {
 .back {
     width: 100%;
     height: 100%;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,6 +141,8 @@ nav ul a:hover {
 }
 
 .back .front h1 {
+    font-size: small;
+    color: rgba(255, 0, 0, 0.699);
     padding: 0px;
     margin: 0px;
     font-size: 5em;
@@ -154,39 +157,36 @@ main {
     max-width: 700px;
     border-radius: 20px;
     margin: auto;
-    box-shadow: 0px 0px 20px 0px white;
-    background-color: rgba(23, 23, 23, 0.478);
+    box-shadow: inset 0px 0px 20px 0px rgb(0, 0, 0);
+    background-color: white;
     color: var(--letras);
 }
 
 main section {
     padding: 20px;
-    box-shadow: 0px 0px 20px 0px white;
+    box-shadow: inset 0px 0px 20px 0px rgb(0, 0, 0);
     border-radius: 20px;
 
 }
 
-h1 {
-    color: white;
-
-}
 
 main h2 {
     text-align: center;
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 main p {
     margin: 5px 5px 0px 20px;
-    box-shadow: 0px 0px 20px 0px white;
-    text-indent: 30px;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 20px 0px rgb(0, 0, 0);
+    text-indent: 10px;
     width: 40%;
-    padding: 5px;
+    padding: 10px;
     text-align: justify;
     background-color: white;
 }
 main img {
-    box-shadow: 0px 0px 20px 0px white;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
     width: 100%;
     border-radius: 20px;
 
@@ -196,7 +196,7 @@ footer {
     width: 100%;
     margin-top: 20px;
     border-top: 0.1px solid rgba(0, 0, 0, 0.055);
-    box-shadow: 0px 0px 20px 0px white;
+    box-shadow: inset 0px 0px 20px 0px rgb(0, 0, 0);
     font-family: var(--padrao);
     font-size: 0.7em;
     color: white;
