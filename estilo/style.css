@@ -141,11 +141,10 @@ nav ul a:hover {
 }
 
 .back .front h1 {
-    font-size: small;
     color: rgba(255, 0, 0, 0.699);
     padding: 0px;
     margin: 0px;
-    font-size: 5em;
+    width: 120vw;
     text-transform: uppercase;
 }
 
@@ -153,7 +152,7 @@ nav ul a:hover {
 main {
     position: relative;
     z-index: 2;
-    font-size: 20px;
+    font-size: 10px;
     max-width: 700px;
     border-radius: 20px;
     margin: auto;
@@ -162,9 +161,10 @@ main {
     color: var(--letras);
 }
 
-main section {
+main div {
     padding: 20px;
     box-shadow: inset 0px 0px 20px 0px rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
 
 }
@@ -176,12 +176,12 @@ main h2 {
 }
 
 main p {
-    margin: 5px 5px 0px 20px;
+    margin: 5px;
     border-radius: 15px;
     box-shadow: inset 0px 0px 20px 0px rgb(0, 0, 0);
     text-indent: 10px;
-    width: 40%;
-    padding: 10px;
+    width: 43%;
+    padding: 5px;
     text-align: justify;
     background-color: white;
 }
