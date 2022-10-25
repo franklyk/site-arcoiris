@@ -109,27 +109,36 @@ nav ul a:hover {
     color: black;
 }
 
-.capa {
+#capa {
     height: 100vh;
     text-align: center;
-    background-image: url(../img/logo-paisagem.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-.capa h1{
+#capa h1{
     padding-top: 50px;
     font-size: 15vw;
-    color: rgba(255, 255, 255, 0.353);
+    color: black;
 }
-.capa h2 {
+#capa h2 {
     font-size: 5vw;
-    color: rgba(255, 255, 255, 0.353);
+    color: black;
 }
-.capa p {
+#capa p {
     font-size: 3vw;
-    color: rgba(255, 255, 255, 0.353);
+    color: black;
 }
+
+.back {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    background-size: cover;
+}
+
 
 main {
     position: relative;
