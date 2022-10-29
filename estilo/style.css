@@ -3,11 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
-@media screen and (min-width: 380px) {
-    .back h1{
-        font-size: 1em;
-    }
-}
+
 
 @keyframes rainbow-background {
     0%{

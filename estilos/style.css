@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+
+
+@media screen and (max-width: 570px) {
+    .front h1 {
+        font-size: 1em;
+    }
+}
