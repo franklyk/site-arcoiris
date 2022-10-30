@@ -4,19 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
 
-@keyframes rainbow-background {
-    0%{
-        background-position: 0%;
-    }
-    100% {
-        background-position: 100%;
-    }
-}
-
-
 * {
     margin: 0px;
     box-sizing: border-box;   
+}
+
+a {
+    text-decoration: none;
 }
 
 :root {
@@ -45,9 +39,98 @@
     border-radius: 15px;
 }
 
-a {
-    text-decoration: none;
+
+
+@media screen and (max-width: 300px){
+    .back .front  h1 {
+        font-family: 'Titan One', cursive;
+        font-size: 1em;
+    }
+    
+    .back .front h2 {
+        font-family: 'Titan One', cursive;
+        font-size: 1em;
+        font-style: oblique;
+
+    }
+    
+    .back .front p {
+        font-family: 'Titan One', cursive;
+        font-size: 1em;
+
+    }
 }
+
+@media screen and (max-width: 650px){
+    .back .front  h1 {
+        font-family: 'Titan One', cursive;
+        font-size: 4em;
+    }
+    
+    .back .front h2 {
+        font-family: 'Titan One', cursive;
+        font-size: 3em;
+        font-style: oblique;
+
+    }
+    
+    .back .front p {
+        font-family: 'Titan One', cursive;
+        font-size: 2em;
+
+    }
+}
+
+
+@media screen and (min-width: 650px){
+    .back .front  h1 {
+        font-family: 'Titan One', cursive;
+        font-size: 7em;
+    }
+    
+    .back .front h2 {
+        font-family: 'Titan One', cursive;
+        font-size: 4em;
+        font-style: oblique;
+
+    }
+    
+    .back .front p {
+        font-family: 'Titan One', cursive;
+        font-size: 3em;
+
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .back .front  h1 {
+        font-family: 'Titan One', cursive;
+        font-size: 10em;
+    }
+    
+    .back .front h2 {
+        font-family: 'Titan One', cursive;
+        font-size: 6em;
+        font-style: oblique;
+
+    }
+    
+    .back .front p {
+        font-family: 'Titan One', cursive;
+        font-size: 4em;
+
+    }
+}
+@keyframes rainbow-background {
+    0%{
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+
 
 body {
     height: 100%;
@@ -55,7 +138,7 @@ body {
    
 }
 
-header {
+.logotipo header {
     z-index: 4;
     background-color: blue;
     width: 100%;
@@ -64,21 +147,22 @@ header {
     margin-bottom: 0px;
 }
 
-header a img {
+.logotipo header a img {
     margin: auto;
     display: block;
-    cursor: pointer;
-}
-
-
-label {
-    position: relative;
     cursor: pointer;
 }
 
 .menulogo {
     margin-top: 0px;
 }
+
+label {
+    position: relative;
+    cursor: pointer;
+}
+
+
 
 label img {
     z-index: 5;
@@ -144,25 +228,6 @@ nav ul a:hover {
     animation: rainbow-background 15s infinite alternate;
     background-attachment: fixed;
     box-shadow: inset 0px 0px 20px 5px blue;
-}
-
-.back .front  h1 {
-    font-family: 'Titan One', cursive;
-    font-size: 10em;
-    
-
-}
-
-.back .front h2 {
-    font-family: 'Titan One', cursive;
-    font-size: 5em;
-    font-style: oblique;
-}
-
-.back .front p {
-    font-family: 'Titan One', cursive;
-    font-size: 3em;
-    font-style: oblique;
 }
 
 
