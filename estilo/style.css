@@ -6,6 +6,7 @@
 
 * {
     margin: 0px;
+    padding: 0;
     box-sizing: border-box;   
 }
 
@@ -42,21 +43,23 @@ a {
 
 
 @media screen and (max-width: 600px){
+    
+
     .back .front  h1 {
         font-family: 'Titan One', cursive;
-        font-size: 1em;
+        font-size: 3.5em;
     }
     
     .back .front h2 {
         font-family: 'Titan One', cursive;
-        font-size: 1em;
+        font-size: 2.5em;
         font-style: oblique;
 
     }
     
     .back .front p {
         font-family: 'Titan One', cursive;
-        font-size: 1em;
+        font-size: 1.8em;
 
     }
 }
