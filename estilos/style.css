@@ -3,8 +3,19 @@
 
 
 
-@media screen and (max-width: 570px) {
-    .front h1 {
-        font-size: 1em;
-    }
+.back .front  h1 {
+    font-family: 'Titan One', cursive;
+    font-size: 3.5em;
+}
+
+.back .front h2 {
+    font-family: 'Titan One', cursive;
+    font-size: 2.5em;
+    font-style: oblique;
+}
+
+.back .front p {
+    font-family: 'Titan One', cursive;
+    font-size: 1.5em;
+    font-style: oblique;
 }
