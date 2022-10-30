@@ -41,7 +41,7 @@ a {
 
 
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 600px){
     .back .front  h1 {
         font-family: 'Titan One', cursive;
         font-size: 1em;
@@ -61,7 +61,7 @@ a {
     }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (min-width: 601px) and (max-width: 768px) {
     .back .front  h1 {
         font-family: 'Titan One', cursive;
         font-size: 4em;
@@ -82,7 +82,7 @@ a {
 }
 
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 769px) and (max-width: 992px){
     .back .front  h1 {
         font-family: 'Titan One', cursive;
         font-size: 7em;
@@ -102,7 +102,7 @@ a {
     }
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 993px) and (max-width: 1200px){
     .back .front  h1 {
         font-family: 'Titan One', cursive;
         font-size: 10em;
@@ -120,6 +120,28 @@ a {
         font-size: 4em;
 
     }
+}
+
+
+@media screen and (min-width: 1200px){
+    .back .front  h1 {
+        font-family: 'Titan One', cursive;
+        font-size: 11em;
+    }
+    
+    .back .front h2 {
+        font-family: 'Titan One', cursive;
+        font-size: 6.1em;
+        font-style: oblique;
+
+    }
+    
+    .back .front p {
+        font-family: 'Titan One', cursive;
+        font-size: 4.1em;
+
+    }
+
 }
 @keyframes rainbow-background {
     0%{
