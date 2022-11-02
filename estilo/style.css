@@ -47,7 +47,7 @@ a {
 
     .back .front  h1 {
         font-family: 'Titan One', cursive;
-        font-size: 3.5em;
+        font-size: 4em;
     }
     
     .back .front h2 {
@@ -67,7 +67,7 @@ a {
 @media screen and (min-width: 601px) and (max-width: 768px) {
     .back .front  h1 {
         font-family: 'Titan One', cursive;
-        font-size: 4em;
+        font-size: 4.5em;
     }
     
     .back .front h2 {
@@ -79,7 +79,7 @@ a {
     
     .back .front p {
         font-family: 'Titan One', cursive;
-        font-size: 2em;
+        font-size: 2.5em;
 
     }
 }
