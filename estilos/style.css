@@ -20,14 +20,11 @@
     
     .back .front p {
         font-family: 'Titan One', cursive;
-        font-size: 1.8em;
+        font-size: 1.3em;
 
     }
 
-    .clearfix {
-        column-count: 2;
-
-    }
+    
     
     
 }
