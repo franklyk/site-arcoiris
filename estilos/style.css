@@ -3,4 +3,118 @@
 
 
 
+@media screen and (max-width: 600px){
+    
 
+    .back .front  h1 {
+        font-family: 'Titan One', cursive;
+        font-size: 4em;
+    }
+    
+    .back .front h2 {
+        font-family: 'Titan One', cursive;
+        font-size: 2.5em;
+        font-style: oblique;
+
+    }
+    
+    .back .front p {
+        font-family: 'Titan One', cursive;
+        font-size: 1.8em;
+
+    }
+
+    .clearfix {
+        column-count: 2;
+
+    }
+    
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .back .front  h1 {
+        font-family: 'Titan One', cursive;
+        font-size: 4.5em;
+    }
+    
+    .back .front h2 {
+        font-family: 'Titan One', cursive;
+        font-size: 3em;
+        font-style: oblique;
+
+    }
+    
+    .back .front p {
+        font-family: 'Titan One', cursive;
+        font-size: 2.5em;
+
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .back .front  h1 {
+        font-family: 'Titan One', cursive;
+        font-size: 7em;
+    }
+    
+    .back .front h2 {
+        font-family: 'Titan One', cursive;
+        font-size: 4em;
+        font-style: oblique;
+
+    }
+    
+    .back .front p {
+        font-family: 'Titan One', cursive;
+        font-size: 3em;
+
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    .back .front  h1 {
+        font-family: 'Titan One', cursive;
+        font-size: 10em;
+        text-decoration-color: #0c10ff89;
+
+    }
+    
+    .back .front h2 {
+        font-family: 'Titan One', cursive;
+        font-size: 6em;
+        font-style: oblique;
+
+    }
+    
+    .back .front p {
+        font-family: 'Titan One', cursive;
+        font-size: 4em;
+
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    .back .front  h1 {
+        font-family: 'Titan One', cursive;
+        font-size: 11em;
+    }
+    
+    .back .front h2 {
+        font-family: 'Titan One', cursive;
+        font-size: 6.1em;
+        font-style: oblique;
+
+    }
+    
+    .back .front p {
+        font-family: 'Titan One', cursive;
+        font-size: 4.1em;
+
+    }
+
+}
